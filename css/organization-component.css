@@ -1,0 +1,122 @@
+.leader-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2, 1fr);
+
+    gap:30px;
+
+    max-width:700px;
+
+    margin:50px auto;
+
+}
+
+.leader-card{
+
+    width:100%;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:30px 20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.leader-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.leader-avatar{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#C8A24A;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.leader-card h3{
+
+    margin-bottom:8px;
+
+}
+
+.leader-card span{
+
+    color:#666;
+
+}
+
+.anggota-title{
+
+    margin-top:60px;
+
+    margin-bottom:30px;
+
+}
+
+.anggota-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+
+    gap:15px;
+
+}
+
+.anggota-grid span{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    width:100%;
+
+    padding:15px;
+
+    background:#f8f8f8;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    box-sizing:border-box;
+
+}
+.anggota-grid span:hover{
+
+    background:#C8A24A;
+
+    color:#fff;
+
+    transform:translateY(-5px);
+
+}

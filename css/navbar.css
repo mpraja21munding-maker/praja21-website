@@ -1,0 +1,209 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:9999;
+
+    transition:.35s ease;
+
+    background:darkgoldenrod;
+
+}
+.navbar.scrolled{
+    background:#111111;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.navbar .container{
+    height:75px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    color:white;
+}
+
+.logo img{
+    width:60px;
+    height:auto;
+    object-fit: contain;
+    transition:.3s;
+}
+
+.logo span{
+
+    font-size:22px;
+    font-weight:700;
+}
+.nav-menu ul{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.nav-menu a{
+
+    color:white;
+
+    font-weight:500;
+
+    position:relative;
+
+    transition:.3s;
+}
+.nav-menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:#C8A24A;
+
+    transition:.3s;
+
+}
+
+.nav-menu a:hover::after{
+
+    width:100%;
+
+}
+.nav-menu .active{
+
+    color:#C8A24A;
+
+}
+.menu-toggle{
+
+    display:none;
+
+    font-size:24px;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+.navbar.scrolled .logo img{
+
+    width:50px;
+
+}
+
+.logo img{
+
+    width:60px;
+
+    transition:.3s;
+
+}
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+        font-size:28px;
+        cursor:pointer;
+    }
+
+.nav-menu{
+
+    position:fixed;
+
+    top:75px;
+
+    left:0;
+
+    width:100%;
+
+    background:#111;
+
+    display:none;
+
+    padding:20px 0;
+
+    z-index:9998;
+
+}
+  .nav-menu ul{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    align-items:center;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.nav-menu ul li{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.nav-menu ul li a{
+
+    display:block;
+
+    color:white;
+
+    padding:12px 20px;
+
+}
+
+.nav-menu ul li a:hover{
+
+    background:#C8A24A;
+
+}
+
+    .nav-menu.active{
+
+        display:block;
+
+    }
+
+    .nav-menu ul{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:20px;
+
+    }
+
+}

@@ -1,0 +1,87 @@
+.error-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:120px 20px;
+
+    background:#f8f9fb;
+
+}
+
+.error-page img{
+
+    width:120px;
+
+    margin-bottom:30px;
+
+}
+
+.error-page h1{
+
+    font-size:110px;
+
+    color:#C8A24A;
+
+    line-height:1;
+
+    margin-bottom:15px;
+
+}
+
+.error-page h2{
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.error-page p{
+
+    max-width:600px;
+
+    margin:0 auto 35px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.btn-primary{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:#C8A24A;
+
+    color:#fff;
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-4px);
+
+    background:#b88f33;
+
+}

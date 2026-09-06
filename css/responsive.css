@@ -1,0 +1,108 @@
+@media(max-width:900px){
+
+    .nav-menu{
+
+        display:none;
+
+    }
+
+    .menu-toggle{
+
+        display:block;
+
+    }
+
+}
+@media(max-width:768px){
+
+    .anggota-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+@media(max-width:1024px){
+
+    .anggota-grid{
+
+        grid-template-columns:repeat(4,1fr);
+
+    }
+
+}
+@media(max-width:768px){
+
+    .profil-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+@media (max-width:768px){
+
+    .logo-container{
+
+        grid-template-columns:1fr;
+
+        gap:30px;
+
+    }
+
+    .logo-image{
+
+        text-align:center;
+
+    }
+
+    .logo-image img{
+
+        max-width:220px;
+
+    }
+
+}
+@media (max-width:768px){
+
+    .sambutan-container{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+}
+@media(max-width:768px){
+
+    .featured-news{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .featured-news img{
+
+        height:220px;
+
+    }
+
+}
+@media(max-width:768px){
+
+    .rutin-item{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .rutin-icon{
+
+        margin:auto;
+
+    }
+
+}

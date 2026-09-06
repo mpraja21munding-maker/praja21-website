@@ -1,0 +1,37 @@
+.news-hero{
+
+    height:420px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../assets/news/tuguran.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.news-hero h1{
+
+    font-size:52px;
+
+    margin-bottom:20px;
+
+}
+
+.news-hero p{
+
+    font-size:18px;
+
+}
